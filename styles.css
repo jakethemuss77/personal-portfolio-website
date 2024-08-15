@@ -1,0 +1,258 @@
+:root {
+    --color-1: #2c423f;
+    --color-2: #4c5b61;
+    --color-3: #829191;
+    --color-4: #949b96;
+    --color-5: #c5c5c5;
+    --color-6: #ffffff;
+}
+
+* {
+    margin:0;
+    padding:0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html {
+    background-color:var(--color-6)
+    
+
+}
+
+#logo {
+    color: var(--color-5);
+    position: fixed;
+    top:10px;
+    left:10px;
+    z-index: 11;
+}
+
+nav {
+    position: fixed;
+    top:0;
+    width:100%;
+    text-align: center;
+    padding:25px;
+    border-bottom: 2px solid var(--color-3);
+    background-color:var(--color-6);
+    box-shadow: 0px 2px 10px var(--color-1);
+    z-index: 10;
+}
+
+nav a {
+    margin:0 3cqb;
+    text-decoration: none;
+    color: var(--color-3);
+}
+
+nav a.active {
+    color:var(--color-1)
+}
+
+#nav-link:hover {
+    color:var(--color-3);
+    text-decoration: underline;
+}
+
+a:hover {
+    color:var(--color-3);
+    text-decoration: underline;
+}
+
+#logo:hover {
+    color:var(--color-3);
+}
+
+#main {
+    position:absolute;
+    left:50%;
+    top:50%;
+    translate: -50% -50%;
+}
+
+#identity {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width:280px;
+    height:200px;
+    translate: -50% -50%;
+    scale: 3;
+}
+
+img {
+    border-radius:50%;
+    position:absolute;
+    top: 10px;
+    left:10px;
+}
+
+#name {
+    position:absolute;
+    top: 10%;
+    right:-30px;
+    translate:-100%;
+    width: 50px;
+}
+
+#jake {
+    position: absolute;
+    right:0;
+    font-size: 20pt;
+    text-decoration: underline;
+}
+
+#mussett {
+    position: absolute;
+    top:32px;
+    right:0;
+    font-size: 30pt;
+}
+
+#skill-description {
+    position: absolute;
+    top: 120px;
+    left: 8px;
+    width:290px;
+}
+
+button {
+    position:absolute;
+    bottom: -765px;
+    left:50%;
+    translate: -50% -50%;
+    width:150px;
+    height:30px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: var(--color-3);
+    color: var(--color-1);
+    border:none;
+    box-shadow: 1px 2px 3px black;
+}
+
+button:hover {
+    background-color: var(--color-1);
+    color:var(--color-5);
+    box-shadow: 0px 0px 20px #2c423f;
+}
+
+#email {
+    position: absolute;
+    top: 150px;
+    right:20px;
+}
+
+#phone {
+    position: absolute;
+    top: 170px;
+    right:20px;
+}
+
+#cv {
+    position:absolute;
+    top: 100px;
+    left: 50%;
+    translate:-50%;
+    min-width:600px;
+}
+
+#main-items {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    translate:-50%;
+    min-width:600px;    
+}
+
+#skills-master {
+    position: absolute;
+    top: 20px;
+}
+
+#education-master {
+    position: relative;
+    top: 20px;
+}
+
+#experience-master {
+    position: relative;
+    top: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom:0;
+    width:100%;
+    text-align: center;
+    padding:25px;
+    font-size: 6pt;
+    border-top: 2px solid var(--color-3);
+    background-color:var(--color-6);
+    box-shadow: 0px 2px 10px var(--color-1);
+    z-index: 10;
+}
+
+.title {
+    color:var(--color-3);
+}
+
+.company {
+    color: var(--color-1);
+}
+
+.location {
+    color: var(--color-3);
+    font-size: 12px;
+    font-style: italic;
+}
+
+.job-description {
+    color: var(--color-3);
+    font-size: 12px;
+
+}
+
+.skill {
+    color: var(--color-1);
+}
+
+.skill-description {
+    color: var(--color-3);
+    font-size: 14px;
+}
+
+.date-range {
+    color: var(--color-3);
+}
+
+.role {
+    color: var(--color-1);
+    font-style: italic;
+}
+
+li > a {
+    text-decoration: none;
+    color: var(--color-3);
+}
+
+li a:hover {
+    color:var(--color-1);
+    text-decoration: underline;
+}
+
+iframe {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    translate: -50% -50%;
+    width: min(1000px, 100%);
+    aspect-ratio: 16 / 9;
+}
+
+.video-title {
+    position: absolute;
+    top: 10vh;
+    left: 50%;
+    translate: -50%;
+    color: var(--color-1);
+}
